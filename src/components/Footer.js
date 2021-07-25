@@ -15,32 +15,26 @@ function Footer() {
         </p>
         <div className='input-areas'>
           <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
             <Button buttonStyle='btn--outline'>Daftar</Button>
           </form>
         </div>
       </section>
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
-          <div className='footer-link-items'>
+          {/* <div className='footer-link-items'>
             <h2>Menu</h2>
             <Link to='/sign-up'>Ayo Donasi</Link>
             <Link to='/'>Buka Donasi</Link>
-            <Link to='/'>Tentang Kami</Link>
-          </div>
+            <Link to='/tentang-kami'>Tentang Kami</Link>
+          </div> */}
           <div className='footer-link-items'>
             <h2>Lokasi Kami</h2>
-            <Link to='/sign-up'>Jalan Hayam Wuruk No. 88</Link>
+            <Link to='/'>Jalan Hayam Wuruk No. 88</Link>
             <Link to='/'>Jakarta Barat</Link>
           </div>
           <div className='footer-link-items'>
-            <h2>Hubungi Kami</h2>
-            <Link to='/'>Email: contact@weshare.id</Link>
+            <h2>Kontak kami</h2>
+            <Link to='/'>Email: @gmail.com</Link>
             <Link to='/'>Telp: (021) 3920192</Link>
           </div>
         </div>
@@ -72,14 +66,6 @@ function Footer() {
               aria-label='Instagram'
             >
               <i className='fab fa-instagram' />
-            </Link>
-            <Link
-              className='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i className='fab fa-youtube' />
             </Link>
             <Link
               className='social-icon-link twitter'
