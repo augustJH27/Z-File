@@ -19,14 +19,14 @@ export default function App() {
       <h1>Butuh Bantuan Segera</h1>
       <br></br>
       <Carousel breakPoints={breakPoints}>
-      <img className="card" src={image1} />
-      <img className="card" src={image1} />
-      <img className="card" src={image1} />
-      <img className="card" src={image1} />
-      <img className="card" src={image1} />
-      <img className="card" src={image1} />
-      <img className="card" src={image1} />
-      <img className="card" src={image1} />
+      <img className="card" alt="bucin" src={image1} />
+      <img className="card" alt="bucin" src={image1} />
+      <img className="card" alt="bucin" src={image1} />
+      <img className="card" alt="bucin" src={image1} />
+      <img className="card" alt="bucin" src={image1} />
+      <img className="card" alt="bucin" src={image1} />
+      <img className="card" alt="bucin" src={image1} />
+      <img className="card" alt="bucin" src={image1} />
       </Carousel>
       <div className='hero-btns'>
         <Button

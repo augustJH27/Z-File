@@ -13,7 +13,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/feature_1.png'
-              text='Bantu saudara-saudara yang tengah mengalami kesulitan'
+              text='Tunjukkan kepedulian kepada sesama'
               label='Kemanusiaan'
               path='/services'
             />
@@ -31,7 +31,7 @@ function Cards() {
             />
             <CardItem
               src='images/feature_4.png'
-              text='Ulurkan tangan untuk anak-anak yang kurang beruntung'
+              text='Mari wujudkan cita-cita mereka'
               label='Anak'
               path='/sign-up'
             />

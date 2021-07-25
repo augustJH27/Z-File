@@ -22,14 +22,14 @@ export default function App() {
       <h1 >Butuh Donasi Terbaru</h1>
       <br></br>
       <Carousel breakPoints={breakPoints}>
-      <img className="card" src={image1} />
-      <img className="card" src={image2} />
-      <img className="card" src={image3} />
-      <img className="card" src={image4} />
-      <img className="card" src={image5} />
-      <img className="card" src={image1} />
-      <img className="card" src={image2} />
-      <img className="card" src={image3} />
+      <img className="card" alt="bucin" src={image1} />
+      <img className="card" alt="bucin" src={image2} />
+      <img className="card" alt="bucin" src={image3} />
+      <img className="card" alt="bucin" src={image4} />
+      <img className="card" alt="bucin" src={image1} />
+      <img className="card" alt="bucin" src={image2} />
+      <img className="card" alt="bucin" src={image3} />
+      <img className="card" alt="bucin" src={image5} />
       </Carousel>
       <div className='hero-btns'>
         <Button

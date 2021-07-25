@@ -41,7 +41,7 @@ function Navbar() {
                 Beranda
               </Link>
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <Link
                 to='/ayodonasi'
                 className='nav-links'
@@ -58,7 +58,7 @@ function Navbar() {
               >
                 Buka Donasi
               </Link>
-            </li>
+            </li> */}
             <li className='nav-item'>
               <Link
                 to='/tentangkami'
@@ -74,10 +74,10 @@ function Navbar() {
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Masuk
+                Mulai
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 to='/sign-up'
                 className='nav-links-mobile'
@@ -85,10 +85,10 @@ function Navbar() {
               >
                 Daftar
               </Link>
-            </li>
+            </li> */}
           </ul>
-          {button && <Button buttonStyle='btn--outline'>Masuk</Button>}
-          {button && <Button buttonStyle='btn--outline'>Daftar</Button>}
+          {/* {button && <Button buttonStyle='btn--outline'>Masuk</Button>} */}
+          {button && <Button buttonStyle='btn--outline'>Mulai</Button>}
         </div>
       </nav>
     </>

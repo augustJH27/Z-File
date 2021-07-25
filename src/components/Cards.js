@@ -17,7 +17,7 @@ function Cards() {
             />
             <CardItem
               src='images/bukadonasi.png'
-              text='Galang dana untuk mereka yang membutuhkan bantuan'
+              text='Galang dana untuk siapa pun'
               label='Buka donasi'
               path='/services'
             />
