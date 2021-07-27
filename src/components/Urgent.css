@@ -1,4 +1,8 @@
-.App {
+.urgent-carousel-fr {
+  text-align: center;
+}
+
+.new-carousel-fr {
   text-align: center;
 }
 
@@ -52,7 +56,7 @@
     padding: 8px 20px;
   }
 
-  .btn {
+  .btns {
     width: 100%;
   }
 }

@@ -5,8 +5,7 @@ import LandingPage from './components/pages/LandingPage';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
-import SignUp from './components/pages/SignUp';
-import Login from './components/pages/Login';
+// import Register from './components/Register/Register';
 
 function App() {
   return (
@@ -18,8 +17,7 @@ function App() {
           <Route path='/ayodonasi' component={Services} />
           <Route path='/bukadonasi' component={Products} />
           <Route path='/tentangkami' component={Products} />
-          <Route path='/login' component={Login} />
-          <Route path='/sign-up' component={SignUp} />
+          {/* <Route path='/sign-up' component={Register} /> */}
         </Switch>
       </Router>
     </>

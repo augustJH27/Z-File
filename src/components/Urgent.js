@@ -14,7 +14,7 @@ export default function App() {
     {width: 1200, itemsToShow: 4},
   ]
   return (
-    <div className="App">
+    <div className="urgent-carousel-fr">
       <div className="cards-urgent">
       <h1>Butuh Bantuan Segera</h1>
       <br></br>

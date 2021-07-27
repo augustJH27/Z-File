@@ -17,7 +17,7 @@ export default function App() {
     {width: 1200, itemsToShow: 4},
   ]
   return (
-    <div className="App">
+    <div className="new-carousel-fr">
       <div className="new-donate-cards">
       <h1 >Butuh Donasi Terbaru</h1>
       <br></br>
