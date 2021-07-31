@@ -2,11 +2,12 @@ import React from 'react';
 import Carousel from 'react-elastic-carousel';
 import { Button } from './Button';
 import './Urgent.css';
-import image1 from '../components/images/1.jpg';
-import image2 from '../components/images/2.jpg';
-import image3 from '../components/images/3.jpg';
-import image4 from '../components/images/4.jpg';
-import image5 from '../components/images/5.jpg';
+import image1 from '../components/assets/images/1.jpg';
+import image2 from '../components/assets/images/2.jpg';
+import image3 from '../components/assets/images/3.jpg';
+import image4 from '../components/assets/images/4.jpg';
+import image5 from '../components/assets/images/5.jpg';
+
 
 export default function App() {
 

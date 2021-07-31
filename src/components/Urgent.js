@@ -3,7 +3,7 @@ import Carousel from 'react-elastic-carousel';
 // import UrgentCard from './UrgentCard';
 import { Button } from './Button';
 import './Urgent.css';
-import image1 from '../components/images/1.jpg'
+import image1 from '../components/assets/images/1.jpg';
 
 export default function App() {
 

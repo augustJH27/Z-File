@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish';
+}
+
+.forgot-background{
+  background: url('../Banner/BannerImages/anak.jpg') center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+::selection{
+  background: rgba(26,188,156,0.3);
+}
+.login-container{
+  max-width: 440px;
+  padding: 0 20px;
+  margin: 170px auto;
+}
+.wrapper{
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+}
+.wrapper .title{
+  height: 90px;
+  background: #00af91;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Mulish';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form{
+  padding: 50px 25px 25px 25px;
+}
+.wrapper form .row{
+  height: 50px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.wrapper form .row input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  font-family: 'Mulish';
+}
+form .row input:focus{
+  border-color: #16a085;
+  box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+}
+
+form .row input::placeholder{
+  color: rgb(43, 40, 40);
+  font-family: 'Mulish';
+  padding-right: 10px;
+}
+
+.wrapper form .row i{
+  position: absolute;
+  width: 47px;
+  height: 70%;
+  color: #fff;
+  font-size: 18px;
+  background: #00af91;
+  border: 1px solid #00af91;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form .pass{
+  margin: -8px 0 20px 0;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.wrapper form .pass a{
+  color: #16a085;
+  font-size: 17px;
+  text-decoration: none;
+  margin-top: 15px;
+}
+.wrapper form .pass a:hover{
+  text-decoration: underline;
+}
+
+.wrapper form .button btn-login-page{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  height: 30px;
+  padding-left: 0px;
+  background: #0a7965;
+  cursor: pointer;
+}
+form .button input:hover{
+  background: #00af91;
+}
+.wrapper form .signup-link{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.wrapper form .signup-link a{
+  color: #0a7965;
+  text-decoration: none;
+}
+form .signup-link a:hover{
+  text-decoration: underline;
+}
