@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import bgImg from "./background.jpg";
+import bgImg from '../assets/background1.jpg'
 import Sidebar from "./Sidebar";
 import Main from "./Main";
 
