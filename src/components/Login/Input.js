@@ -10,7 +10,7 @@ const Input = ({ type, placeholder }) => {
         required
         autocomplete="off"
       />
-      <Status />
+      {/* <Status /> */}
     </Container>
   );
 };

@@ -4,6 +4,10 @@ import Carousel from 'react-elastic-carousel';
 import { Button } from './Button';
 import './Urgent.css';
 import image1 from '../components/assets/images/1.jpg';
+import image2 from '../components/assets/images/2.jpg';
+import image3 from '../components/assets/images/3.jpg';
+import image4 from '../components/assets/images/4.jpg';
+import image5 from '../components/assets/images/5.jpg';
 
 export default function App() {
 
@@ -18,15 +22,15 @@ export default function App() {
       <div className="cards-urgent">
       <h1>Butuh Bantuan Segera</h1>
       <br></br>
-      <Carousel breakPoints={breakPoints}>
-      <img className="card" alt="bucin" src={image1} />
-      <img className="card" alt="bucin" src={image1} />
-      <img className="card" alt="bucin" src={image1} />
-      <img className="card" alt="bucin" src={image1} />
-      <img className="card" alt="bucin" src={image1} />
-      <img className="card" alt="bucin" src={image1} />
-      <img className="card" alt="bucin" src={image1} />
-      <img className="card" alt="bucin" src={image1} />
+      <Carousel className='o-carousel-urgent'  breakPoints={breakPoints}>
+      <img className="m-image-urgent" alt="bucin" src={image1} />
+      <img className="m-image-urgent" alt="bucin" src={image2} />
+      <img className="m-image-urgent" alt="bucin" src={image3} />
+      <img className="m-image-urgent" alt="bucin" src={image4} />
+      <img className="m-image-urgent" alt="bucin" src={image5} />
+      <img className="m-image-urgent" alt="bucin" src={image1} />
+      <img className="m-image-urgent" alt="bucin" src={image2} />
+      <img className="m-image-urgent" alt="bucin" src={image3} />
       </Carousel>
       <div className='hero-btns'>
         <Button

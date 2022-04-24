@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Input from "./Input";
 
@@ -17,7 +18,7 @@ const Sidebar = () => {
       </Form>
       <div>
         <h4>
-          Sudah mempunyai akun? <span>Masuk di sini</span>
+          Sudah mempunyai akun? <span><Link to='/masuk'>Masuk di sini</Link></span>
         </h4>
       </div>
     </Container>
@@ -35,7 +36,7 @@ const Form = styled.form`
   }
 
   button {
-    width: 75%;
+    /* width: 75%; */
     max-width: 350px;
     min-width: 250px;
     height: 40px;

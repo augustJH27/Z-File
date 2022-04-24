@@ -36,6 +36,7 @@ const Routes = () => {
         <>
             <Router>
                 <Switch>
+                    <Route path='/register' exact component={Register} />
                     <Route path='/' exact component={LandingPage} />
                     <Route path='/beranda' exact component={LandingPage} />
                     <Route path='/ayo-donasi' exact component={DonasiCardMap} />
