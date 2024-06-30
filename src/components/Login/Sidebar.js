@@ -16,10 +16,12 @@ const Sidebar = () => {
         <button>Masuk</button>
       </Form>
       <div>
-        <h4>
-          Belum mempunyai akun? <span><Link to='/daftar'>Daftar Sekarang</Link></span>
-        </h4>
-      </div>
+      <h4>Belum mempunyai akun?</h4>
+      <Link to='/daftar'>
+        Daftar Sekarang
+      </Link>
+</div>
+
     </Container>
   );
 };
@@ -83,7 +85,7 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  padding: 0 2rem;
+  padding: 0 4rem;
 
   @media (max-width: 900px) {
     width: 100vw;
